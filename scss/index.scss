@@ -1,0 +1,10 @@
+@import "common.scss";
+a{
+    display: block;
+    border:1px solid red; 
+//  background: inline-image("../images/authid.png");
+    @include border-radius(10px);
+    @include clearfix;
+}
+
+
